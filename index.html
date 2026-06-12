@@ -803,7 +803,7 @@
 
 <script>
   // EmailJS Init
-  emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+  emailjs.init("Jy2tQ7WTFLSxvvy5_")
 
   // EARLY ACCESS FORM
   function submitEarlyAccess() {
@@ -817,7 +817,7 @@
     btn.textContent = 'Sending...';
     btn.classList.add('loading');
 
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+    emailjs.send(""service_gh06kre", "template_1nxnysq", {
       to_email: "hello@lastmo.co",
       from_email: email,
       subject: "New LastMo Early Access Sign-up",
@@ -851,7 +851,7 @@
     const lastName = document.getElementById('cfLastName').value;
     const type = document.getElementById('cfType').value;
 
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+    emailjs.send("service_gh06kre", "template_1nxnysq", {
       to_email: "hello@lastmo.co",
       from_name: firstName + ' ' + lastName,
       from_email: email,
